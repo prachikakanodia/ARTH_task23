@@ -1,0 +1,26 @@
+- hosts: tag_Name_K8s_Master
+  roles:
+  - role: K8s-Master
+  tasks:
+  - name: "To get join command"
+    shell: "kubeadm token create --print-join-command"
+    register: token
+ 
+  - debug:
+       msg: "{{ token.stdout }}"
+
+  - add_host:
+       name: "Joining link"
+       link: "{{ token['stdout'] }}"
+
+- hosts: tag_Name_K8s_WorkerNodes
+  roles:
+  - role: K8s-WorkerNodes
+  tasks:
+  - name: "Joining with the master"
+    shell: "{{ hostvars['Joining link']['link'] }}"
+
+  - debug:
+       msg: "WorkerNodes connected with the Master"
+    
+ 
