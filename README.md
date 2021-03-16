@@ -16,7 +16,7 @@ AWS i.e. Amazon Web Services that provides the cloud based services and many oth
 WordPress is a free and open-source content management system (CMS) written in PHP and paired with a MySQL or MariaDB database.
 
 # MySQL:
-A Relational Database organizes data into one or more data tables in which data types may be related to each other; these relations helpS in structuring the data. SQL is a language programmers used to create, modify and extract data from the Relational Database, as well as control user access to the database. In addition to Relational Databases and SQL, an RDBMS like MySQL works with an operating system to implement a Relational Database in a computer's storage system, manages users, allows for network access and facilitates testing database integrity and creation of backups.
+A Relational Database organizes data into one or more data tables in which data types may be related to each other; these relations helps in structuring the data. SQL is a language programmers used to create, modify and extract data from the Relational Database, as well as control user access to the database. In addition to Relational Databases and SQL, an RDBMS like MySQL works with an operating system to implement a Relational Database in a computer's storage system, manages users, allows for network access and facilitates testing database integrity and creation of backups.
 
 Task Description 📄
 
