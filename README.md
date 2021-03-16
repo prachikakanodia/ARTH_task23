@@ -26,7 +26,7 @@ Task Description 📄
 
 🔅 Create roles that will configure master node and slave node seperately.
 
-🔅 Launch a wordpress and mysql database connected to it in the respectine slaves. 
+🔅 Launch a wordpress and mysql database connected to it in the respective slaves. 
 
 🔅 Expose the wordpress pod and client able hit the wordpress ip with its respective port.
 
